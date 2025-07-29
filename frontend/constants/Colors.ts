@@ -5,6 +5,12 @@
 
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
+const primary = '#002F6C'; //Used for headers, menus, and CTAs.
+const secundary = '#004B9A'; //Lighter accent for buttons and highlights.
+const highlights = '#FFC107'; //Used for highlights, CTAs, and celebration banners.
+const light1 = '#FFFFFF';
+const light2 ='#F5F5F5';
+const light3 ='#777777';
 
 export const Colors = {
   light: {
@@ -16,11 +22,18 @@ export const Colors = {
     tabIconSelected: tintColorLight,
   },
   dark: {
-    text: '#ECEDEE',
+    // text: '#ECEDEE',
+    text: '#11181C',
     background: '#151718',
     tint: tintColorDark,
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
   },
+  primary,
+  secundary,
+  highlights,
+  light1,
+  light2,
+  light3
 };
